@@ -24,6 +24,8 @@ namespace HelloPhobos
         {
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
+
+            
         }
 
         /// <summary>
@@ -49,6 +51,7 @@ namespace HelloPhobos
             spriteBatch = new SpriteBatch(GraphicsDevice);
 
             // TODO: use this.Content to load your game content here
+            
         }
 
         /// <summary>
@@ -84,7 +87,6 @@ namespace HelloPhobos
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
             // TODO: Add your drawing code here
-
             base.Draw(gameTime);
         }
     }
